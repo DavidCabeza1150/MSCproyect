@@ -1,15 +1,118 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>construciudad</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo"><img src="assets/img/logo.png" width="90px"></div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#contact"><img src="assets/img/carrito.png" width="70px"></a></li>
+                <li><a href="#sesion" class="sesion">Iniciar Sesión</a></li>
+            </ul>
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#home">Inicio</a>
+                <a href="#products">Productos</a>
+                <a href="#about">Nosotros</a>
+                <a href="#contact">Contacto</a>
+                <a href="#sesion" class="sesion">Iniciar Sesión</a>
+            </div>
+        </nav>
+    </header>
 
-<html>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        
+        <div class="hero-content">
+            <div class="titulo">
+            <h1>CONSTRUCIUDAD</h1>
+            </div>
+            <p>Descubre como puedes construir tu futuro</p>
+            <a href="#products" class="btn">Explorar servicio</a>
+        </div>
+    </section>
 
-    <head>
-        <meta charset="UTF-8">
-        <title> CONSTRUCIUDAD S.A.S </title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Te brindamos los siguientes servicios</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon"><img src="assets/img/iphone.png" width="60px"> </div>
+                    <h3>Licencias de construccion</h3>
+                    <p>Es una autorización oficial que otorga el Estado para poder iniciar, modificar o ampliar una construcción de manera legal y segura.</p>
+                    <div class="price">desde xxxxxxx</div>
+                    <a href="#" class="btn">Ver Detalles</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon"><img src="assets/img/galeria-de-arte.png" width="60px"> </div>
+                    <h3>Diseño arquitectonico</h3>
+                    <p>Es el plan o propuesta gráfica y técnica que organiza los espacios, formas y funciones de una edificación antes de construirla.</p>
+                    <div class="price">desde xxxxxxx</div>
+                    <a href="#" class="btn">Ver Detalles</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon"><img src="assets/img/bosquejo.png" width="55px"></div>
+                    <h3>planos</h3>
+                    <p>Representaciones gráficas que muestran la distribución, dimensiones y detalles de una construcción.</p>
+                    <div class="price">desde xxxxxxx</div>
+                    <a href="#" class="btn">Ver Detalles</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <body>
-        <h1>CONSTRUCIUDAD S.A.S</h1>
-        <script src="script.js"></script>
-    </body>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">¿Por qué elegirnos?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Calidad y Confianza</h2>
+                    <p>Con más de 10 años en el mercado tecnológico, ofrecemos productos de las mejores marcas con garantía completa y soporte técnico especializado.</p>
+                    <p>Nuestro compromiso es brindar la mejor experiencia de compra, desde la selección del producto hasta el servicio post-venta.</p>
+                    <a href="#contact" class="btn">Conocer Más</a>
+                </div>
+                <div class="about-image">
+                    <img src="assets/img/tecnology.png" width="250px"> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>¡Contáctanos!</h2>
+                <p>¿Tienes preguntas? Estamos aquí para ayudarte a encontrar el producto perfecto</p>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 CONSTRUCIUDAD. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
 </html>
